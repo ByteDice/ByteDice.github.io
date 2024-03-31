@@ -1,0 +1,62 @@
+:root {
+  --text-color: #dddddd;
+  --bg-prim-color: #1f1f1f;
+  --bg-sec-color: #4f4f4f;
+  --elem-border: #1f1f1f;
+}
+
+body {
+  background: linear-gradient(-45deg, var(--bg-prim-color) 60%, var(--bg-sec-color) 100%);
+  background-attachment: fixed;
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+a {
+  color: var(--text-color);
+}
+
+.font_config {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: var(--text-color)
+}
+
+.dashboard_bar {
+  width: 100%;
+  height: 20vh;
+  max-height: 100px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 10px;
+  padding-bottom: 45px;
+  padding-left: 20px;
+
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 50%, rgba(0, 0, 0, 0) 50%);
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
+  backdrop-filter: blur(20px);
+  font-size: min(7vh, 40px) !important;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.dashboard_button {
+  width: auto;
+  height: 40%;
+  box-sizing: border-box;
+  padding-bottom: 52px;
+  margin: 0px 5px 0px 5px;
+
+  background-color: transparent;
+  border-radius: 16px;
+  border: 3px solid var(--elem-border);
+  font-size: min(7vh, 40px) !important;
+  cursor: pointer;
+}
+
+.sidebar_a {
+  background-color: green;
+}

@@ -1,0 +1,70 @@
+.avatar {
+  max-width: 75px;
+  max-height: 75px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.sub_btn {
+  background-color: #dddddd;
+  color: #181818;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+  font-family: "Roboto" sans-serif;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.avatar_link {
+  margin-right: 70px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #dddddd;
+}
+
+.yt_block {
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.yt_text {
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+
+.yt_username {
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #adadad
+}
+
+.sub_count {
+  margin-left: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #bdbdbd
+}
+
+.logo {
+  height: 25px;
+  width: auto;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.float_div {
+  display: inline-grid;
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  margin: 0px;
+}

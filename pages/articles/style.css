@@ -1,0 +1,33 @@
+.sidebar {
+  margin: 0px;
+  padding-left: 1vw;
+  padding-top: 20vh;
+  width: 20%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: ellipsis;
+  top: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  position: absolute;
+  vertical-align: bottom;
+
+  background-color: rgba(0, 0, 0, 0.65);
+  mask-image: rgba(0, 0, 0, 1);
+  backdrop-filter: blur(20px);
+
+  -ms-overflow-style: none;
+  scrollbar-width: none
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

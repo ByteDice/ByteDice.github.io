@@ -1,0 +1,5 @@
+<svg width="270" height="263" viewBox="0 0 270 263" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M3 133C-4.05312e-06 69 -16 -20 164 5C185.667 10.3333 253.4 44.2 267 77C284 118 201 100 226 182C239.955 227.774 193 260 144 262C95 264 6 197 3 133Z" fill="blue">
+    <animate attributeName="fill" values="#555555;#222222;#555555" dur="10s" repeatCount="indefinite" />
+  </path>
+</svg>

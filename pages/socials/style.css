@@ -1,70 +1,193 @@
-.avatar {
-  max-width: 75px;
-  max-height: 75px;
-  border-radius: 50%;
-  margin: 10px;
-}
-
-.sub_btn {
-  background-color: #dddddd;
-  color: #181818;
-  border-radius: 30px;
-  border: none;
-  font-size: 20px;
-  font-family: "Roboto" sans-serif;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  cursor: pointer;
-}
-
-.avatar_link {
-  margin-right: 70px;
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  color: #dddddd;
-}
-
-.yt_block {
-  background-color: #181818;
-  border-radius: 10px;
-  padding: 10px;
-  display: inline-flex;
-  align-items: center;
-}
-
-.yt_text {
-  margin-left: 10px;
-  font-family: "Roboto", sans-serif;
-  font-size: 25px;
-}
-
-.yt_username {
-  margin-left: 10px;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  color: #adadad
-}
-
-.sub_count {
-  margin-left: 30px;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  color: #bdbdbd
-}
-
-.logo {
-  height: 25px;
-  width: auto;
-  margin-bottom: 20px;
-  margin-left: 10px;
-}
-
+/* global */
 .float_div {
   display: inline-grid;
   position: absolute;
   top: 70%;
   left: 20%;
   margin: 0px;
+  overflow: hidden;
+}
+
+.logo {
+  height: 30px;
+  width: auto;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+
+/* youtube */
+.yt_pfp {
+  max-width: 75px;
+  max-height: 75px;
+  margin: 10px;
+
+  border-radius: 50%;
+}
+
+.yt_sub_btn {
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  background-color: #dddddd;
+  color: #181818;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+  font-family: "Roboto" sans-serif;
+  cursor: pointer;
+}
+
+.yt_avatar_link {
+  margin-right: 70px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  
+  color: #dddddd;
+}
+
+.yt_block {
+  padding: 10px;
+  display: inline-flex;
+  align-items: center;
+
+  border-radius: 10px;
+  background-color: #181818;
+}
+
+.yt_text {
+  margin-left: 10px;
+  
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  white-space: nowrap;
+}
+
+.yt_username {
+  margin-left: 10px;
+  
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #adadad;
+}
+
+.yt_sub_count {
+  margin-left: 30px;
+  
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #bdbdbd;
+  white-space: nowrap;
+}
+
+
+
+/* ByteDice.github.io*/
+.byte_img {
+  width: 5vw;
+  height: auto;
+  margin: 0px;
+}
+
+
+
+/* discord */
+.dc_img {
+  border-radius: 16px;
+}
+
+
+
+/* reddit */
+.re_bg {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+
+  border-radius: 16px;
+  background-color: #0b1416;
+}
+
+.re_pfp {
+  max-width: 75px;
+  height: auto;
+  margin: 0px;
+
+  border-radius: 50%;
+  border: solid 5px #242c2e;
+}
+
+.re_name {
+  margin: 0px;
+  margin-left: 20px;
+
+  font-size: 25px;
+  white-space: nowrap;
+}
+
+.re_username {
+  margin: 0px;
+  margin-left: 20px;
+  
+  color: #82958a;
+  white-space: nowrap;
+}
+
+.re_follow_btn {
+  margin-left: 50px;
+  margin-right: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #0045ac;
+  border-radius: 32px;
+  border: none;
+}
+
+
+
+/* github */
+.gh_bg {
+  padding: 20px;
+  
+  border-radius: 16px;
+  background-color: #0d1117;
+}
+
+.gh_pfp {
+  max-width: 125px;
+  height: auto;
+  margin: 0px;
+
+  border-radius: 50%;
+  border: solid 3px #2f353c;
+}
+
+.gh_name {
+  margin: 5px;
+  margin-left: 10px;
+  
+  color: #747c85;
+}
+
+.gh_follow_btn {
+  width: 100%;
+  padding: 5px;
+  
+  background-color: #21262d;
+  border: solid 3px #2f353c;
+  color: #bfc7cf;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
 }

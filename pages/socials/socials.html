@@ -1,50 +1,91 @@
 <!DOCTYPE html>
 <html>
-  
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
 
   <title>Byte Dice - Socials</title>
-  <link rel="icon", type="image/png", href="/assets/dice.png">
+  <link rel="icon" , type="image/png" , href="/assets/dice.png">
 
-  <link href="/global_style.css" rel="stylesheet" type="text/css"/>
-  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link href="/global_style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body style="overflow: hidden;">
+  <p id="long_load"
+    style="top: 50%; left: 50%; position: absolute; transform: translate(-50%, -50%); text-align: center;">Please wait
+    for the page to load...<br>This might take some time...</p>
+
   <!-- youtube -->
   <div class="float_div">
     <img src="/assets/youtubelogo_white.png" class="logo">
+    
     <div class="yt_block">
-      <a href="https://www.youtube.com/@ByteDice" target="_blank" class="avatar_link">
-        <img src="/assets/dice_border.png" class="avatar">
+      <a href="https://www.youtube.com/@ByteDice" target="_blank" class="yt_avatar_link link">
+        <img src="/assets/dice_border.png" class="yt_pfp">
         <div style="display: grid;">
           <bold class="yt_text">Byte Dice</bold>
           <bold class="yt_username">@ByteDice</bold>
         </div>
-        <bold class="sub_count">X subscribers</bold>
+        <bold class="yt_sub_count">X subscribers</bold>
       </a>
       <a style="margin: 10px;" href="https://www.youtube.com/@ByteDice?sub_confirmation=1" target="_blank">
-        <button class="sub_btn"><bold>Subcribe</bold></button>
+        <button class="yt_sub_btn">
+          <bold>Subcribe</bold>
+        </button>
       </a>
     </div>
   </div>
 
-  <a href="/index.html">
-    <img src="/assets/dice.png" style="width: 10%; height: auto; position: absolute; background-color: green; margin: 0;" class="float_div">
-  </a>
-  
+  <!-- ByteDice.github.io -->
+  <div class="float_div">
+    <a href="/index.html" class="link">
+      <img src="/assets/dice.png" class="byte_img">
+    </a>
+  </div>
+
   <!-- discord -->
   <div class="float_div">
     <img src="/assets/discordlogo.png" class="logo">
-    <a href="https://discord.gg/4sRSqKyWM7" target="_blank">
-      <img src="/assets/dc_invite.png" style="border-radius: 16px;">
+    
+    <a href="https://discord.gg/4sRSqKyWM7" target="_blank" class="link">
+      <img src="/assets/dc_invite.png" class="dc_img">
     </a>
   </div>
-  
+
+  <!-- reddit -->
+  <div class="float_div">
+    <img src="/assets/reddit_logo.png" class="logo" style="margin: 0px; margin-bottom: 10px;">
+
+    <a href="https://www.reddit.com/u/Byte_Dice" target="_blank" class="link">
+      <div class="re_bg">
+        <img src="/assets/dice_border.png" class="re_pfp">
+        <div style="display: grid; padding: 0px;">
+          <p class="re_name">Byte Dice</p>
+          <p class="re_username">u/Byte_Dice</p>
+        </div>
+
+        <button class="re_follow_btn">Follow</button>
+      </div>
+    </a>
+  </div>
+
+  <!-- github -->
+  <div class="float_div">
+    <img src="/assets/github_logo.png" class="logo">
+
+    <a href="https://www.github.com/ByteDice" target="_blank" class="link">
+      <div class="gh_bg">
+        <img src="/assets/dice_border.png" class="gh_pfp">
+        <p class="gh_name">ByteDice</p>
+        <button class="gh_follow_btn">Follow</button>
+      </div>
+    </a>
+  </div>
+
   <script src="animation.js"></script>
   <script src="/dashboard.js"></script>
 </body>
-  
+
 </html>

@@ -10,11 +10,13 @@ window.addEventListener('load', function() {
       "articles": "/pages/articles/articles.html",
       "videos": "/pages/videos/videos.html",
     };
+    
     let current_page = window.location.pathname;
     let path_segments = current_page.split("/");
-    if (path_segments.length >= 3 && path_segments[path_segments.length - 3].endsWith("article")) {
+    if (path_segments.length >= 3 && path_segments[path_segments.length - 3] == "article") {
       path_segments[path_segments.length - 1] = "articles.html";
     }
+    
     let file_name = path_segments[path_segments.length - 1] || "index.html";
     console.log(`file_name: ${file_name}`);
 
@@ -32,8 +34,10 @@ window.addEventListener('load', function() {
         sub_pages.push(file_name_upper);
         sub_pages_url.push(page);
       }
+      
       console.log(`page: ${page}`);
     }
+    
     console.log(`selected_page: ${selected_page}`);
     console.log(`sub_pages: ${sub_pages.join(", ")}`);
   }
@@ -57,6 +61,7 @@ window.addEventListener('load', function() {
 
       button_elements.push(a);
     }
+    
     let dashboard_text = `Byte Dice | ${selected_page} | `;
     
     dashboard_base.textContent = dashboard_text;

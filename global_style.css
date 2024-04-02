@@ -5,6 +5,10 @@
   --elem-border: #1f1f1f;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: linear-gradient(-45deg, var(--bg-prim-color) 60%, var(--bg-sec-color) 100%);
   background-attachment: fixed;

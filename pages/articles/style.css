@@ -1,7 +1,17 @@
+strong {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 5px;
+}
+
+
 .sidebar {
   margin: 0px;
   padding-left: 1vw;
-  padding-top: 20vh;
+  padding-top: 14vh;
   width: 20%;
   height: 100%;
   overflow-y: scroll;
@@ -9,7 +19,7 @@
   top: 0px;
   left: 0px;
   box-sizing: border-box;
-  position: absolute;
+  position: fixed;
   vertical-align: bottom;
 
   background-color: rgba(0, 0, 0, 0.65);
@@ -24,10 +34,31 @@
   display: none;
 }
 
-a {
+.sidebar_link {
   text-decoration: none;
 }
 
-a:hover {
+.sidebar_link:hover {
   text-decoration: underline;
+}
+
+
+.text_area {
+  left: 30vw;
+  right: 10vw;
+  min-height: 100vh;
+  position: absolute;
+  padding: 40px;
+  padding-top: 10vh;
+
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.article_title {
+  margin-bottom: 5px;
+}
+
+.article_date {
+  color: #888888;
+  margin-top: 0px;
 }

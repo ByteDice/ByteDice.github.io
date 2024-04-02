@@ -10,7 +10,7 @@ function spawn_idiots() {
     let img = document.createElement('img');
     img.src = "/assets/idiot.gif";
     img.className = "float_div idiot";
-    img.style.width = "20%";
+    img.style.width = "15vw";
     img.style.height = "auto";
     document.body.appendChild(img);
     console.log("idiots spawned");
@@ -44,20 +44,25 @@ window.addEventListener('load', function() {
     let left = rect.left;
     let height = rect.height;
     let width = rect.width;
-    let top_mid = top + height / 2;
-    let left_mid = left + width / 2;
-
+    let corners = [
+      { x: left, y: top },
+      { x: left + width, y: top },
+      { x: left, y: top + height },
+      { x: left + width, y: top + height }
+    ];
+  
     elem.style.left = (left + (dir_x * speed)) + "px";
     elem.style.top = (top + (dir_y * speed)) + "px";
-
-    if ((top_mid >= window.innerHeight && dir_y > 0) || (top_mid <= 0 && dir_y < 0)) {
-      dir_y *= -1;
-    }
-
-    if ((left_mid >= window.innerWidth && dir_x > 0) || (left_mid <= 0 && dir_x < 0)) {
-      dir_x *= -1;
-    }
-
+  
+    corners.forEach(corner => {
+      if ((corner.y >= window.innerHeight && dir_y > 0) || (corner.y <= 0 && dir_y < 0)) {
+        dir_y *= -1;
+      }
+      if ((corner.x >= window.innerWidth && dir_x > 0) || (corner.x <= 0 && dir_x < 0)) {
+        dir_x *= -1;
+      }
+    });
+  
     return [dir_x, dir_y];
   }
 
@@ -104,5 +109,7 @@ window.addEventListener('load', function() {
     animateFrames();
   }
 
+  document.getElementById("long_load").remove();
+  
   begin();
 });

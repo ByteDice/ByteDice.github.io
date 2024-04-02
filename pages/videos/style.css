@@ -1,0 +1,29 @@
+body {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.video {
+  margin: 20px;
+  margin-bottom: 0px;
+
+  border-radius: 8px;
+  border: none;
+}
+
+.video_container {
+  width: 340px;
+  margin-right: 50px;
+  
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 16px;
+  word-break: break-word;
+}
+
+.video_title {
+  margin: 20px;
+}

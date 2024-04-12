@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
 
-  <title>Byte Dice - Atricles - Example</title>
+  <title>Byte Dice - Articles - Discord Bot Tutorial</title>
   <link rel="icon" type="image/png" href="/assets/dice.png">
 
   <link href="/global_style.css" rel="stylesheet" type="text/css" />
@@ -14,22 +14,120 @@
 
 <body>
   <div class="text_area">
-    <h1 class="article_title">How To Make Your First Discord Bot</h1>
-    <h4 class="article_date">date published: some time in the future</h4>
+    <h1 class="article_title">How to Make Your First Discord Bot</h1>
+    <h4 class="article_date">Date Published: Some Time in the Future</h4>
 
     <strong>
-      paragraph
+      Introduction
     </strong>
+
     <p>
-      This is still under construction, please wait until the next website update
+      Welcome to the first article published on this website!<br>
+      <br>
+      Do you want to create your very own Discord bot? Well, I hope this tutorial will help you get started in no
+      time!<br>
+      If you don't know what a Discord bot is, I'll explain it briefly for you:<br>
+      A Discord bot is an account controlled by a program. It's often used for automating tasks, such as moderation. But
+      it can be used for a lot more than that! In this tutorial, I'll help you make your first Discord bot. The bot
+      we'll be making is a "ping bot", which is a bot with a command. When that command is run, the bot gives a response
+      message. Pretty simple, but enough to get you started.<br>
+      <br>
+      For this tutorial, I'll assume that you have some basic knowledge of the Python programming language. If you don't
+      know anything about Python or programming in general, I highly suggest that you learn before attempting this.
     </p>
+
+
     <strong>
-      paragraph 2
+      Creating the Bot Account
     </strong>
+
     <p>
-      lorem ipsum
+      Creating the bot account is very easy. I'm sure that some of you have already done that by now. If you want to
+      save some time, you can click <a href="#python_part">this link</a> to skip to the coding part.<br>
+      <br>
+      The first step is to navigate to <a href="https://discord.com/developers" target="_blank">Discord Developer
+        Portal</a>. After that, look for the "Applications" button and click it. Next, press the "New Application"
+      button, and give your app any name, agreeing to the terms of service.
     </p>
-    <img src="/assets/dice.png" style="width: 400px; height: auto;">
+
+    <img src="dc_bot_home.png"><br>
+
+
+    <strong>
+      Configuring the Bot Account
+    </strong>
+
+    <p>
+      Great! You have now created your bot! But we're not done yet. You still have the ultimate challenge of clicking
+      your mouse four times (so scary)! So what you're going to do is navigate to the "Bot" section and scroll down to
+      the "Privileged Gateway Intents." You now have to use your last three clicks to turn on the three sliders. You're
+      now only one step away from being able to start coding.
+    </p>
+
+    <img src="gateway_intents.png"><br>
+
+    <p>
+      The last step in configuring your bot is to get the token. A token is almost like a username and a password
+      combined; therefore, do not share it with anyone. With the token, you can do almost anything you want with your
+      bot. To find your bot token, scroll up to the top of the bot section, and there will be a "Reset Token" button.
+      Click the reset button and enter the authentication details. Then save that token somewhere safe because we will
+      use it later.<br>
+    </p>
+
+    <img src="token_show.png"><br>
+
+
+    <strong>
+      Inviting the Bot to a Server
+    </strong>
+
+    <p id="python_part">
+      Inviting the bot to your server is crucial for testing purposes. It's extremely simple. Start by navigating to the
+      "OAuth2" tab. Scroll down to the OAuth2 URL Generator, check the "Bot" checkbox. Then scroll down further and
+      select what permissions you would like your bot to have. I usually select Administrator for testing purposes, but
+      when I'm ready to use it publicly, I avoid using administrator permissions for safety reasons. The last step is to
+      visit the link and select your testing server.
+    </p>
+
+
+    <strong>
+      Adding Some Code
+    </strong>
+
+    <p>
+      Now that you have created a bot account, it's time to add some code to make it do something. Open up your favorite
+      Python IDE and write these few lines of code:
+    </p>
+
+    <img src="bot_setup_code.png">
+
+    <p>
+      Great! Your bot is now set up and... not really doing anything else. Let's fix that. As I said before, we will be
+      making a ping bot. To make your bot do something when it has started, you can add the "@bot.event" decorator,
+      followed by a new line and "async def on_ready():".
+    </p>
+
+    <img src="on_ready_bot.png">
+
+    <p>
+      Now that you have set up the basics for a bot, I think it's time to move on to making commands. It's a process
+      very similar to the on_ready() function. All you have to do is add a "@bot.command()" decorator, followed by a new
+      line and "async def [your command name](ctx):" followed by your logic. In our case, we will use the "ctx.send()"
+      function to send a response message.
+    </p>
+
+    <img src="ping_cmd_bot.png">
+
+    <p>
+      Now you are fully set up! You can test your bot by simply typing the command in a server where your bot is
+      invited.
+    </p>
+
+    <img src="dc_cmd_check.png">
+
+    <p>
+      Thank you for reading this article; it means a lot to me! If you have any feedback, you can join my <a href="https://discord.gg/tBqK7GeZ" target="_blank">Discord server</a> in the #server-or-website-suggestions channel, or leave a comment on <a href="https://www.youtube.com/@ByteDice" target="_blank">one of my videos</a>.
+    </p>
   </div>
 
   <script src="/dashboard.js"></script>

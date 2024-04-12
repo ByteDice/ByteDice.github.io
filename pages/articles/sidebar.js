@@ -29,7 +29,7 @@ function add_sidebar(articles) {
 
 window.addEventListener('load', function() {
   let articles = {
-    "How To Make Your First Discord Bot": "discord_bot_tuto",
+    "How to make your first Discord bot": "discord_bot_tuto",
   };
 
   add_sidebar(articles);

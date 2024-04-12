@@ -1,10 +1,18 @@
 strong {
-  font-size: 25px;
+  font-size: 27px;
   margin-bottom: 5px;
 }
 
 p {
   margin-top: 5px;
+}
+
+img {
+  max-width: 100%;
+  margin: 20px;
+  margin-left: 0px;
+
+  border-radius: 16px;
 }
 
 
@@ -50,6 +58,7 @@ p {
   position: absolute;
   padding: 40px;
   padding-top: 10vh;
+  padding-bottom: 20vh;
 
   background: rgba(0, 0, 0, 0.65);
 }

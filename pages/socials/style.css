@@ -205,3 +205,10 @@
   font-size: 12px;
   cursor: pointer;
 }
+
+
+
+/* replit */
+.repl_img {
+  border-radius: 16px;
+}

@@ -1,7 +1,8 @@
 # ByteDice.github.io
 
 ## Description
-Super Cool Website :ThumbsUp:
+Super Cool Website :ThumbsUp:\
+Why is the replit.nix file added. I literally put it in the .gitignore file
 
   
 

@@ -5,25 +5,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
 
-  <title>Byte Dice - Socials</title>
+  <title>Byte Dice - Socials (Static)</title>
   <link rel="icon" type="image/png" href="/assets/dice.png">
 
   <link href="/global_style.css" rel="stylesheet" type="text/css"/>
   <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link href="style_static.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
-  <p id="long_load" style="top: 50%; left: 50%; position: absolute; transform: translate(-50%, -50%); text-align: center; z-index: 1000;">
-    Please wait for the page to load...<br>
-    This can take some time...<br>
-    <br>
-    If the page isn't loading in a few seconds, click <a href="socials_static.html">THIS</a> link for a static page
-  </p>
-
   <!-- youtube -->
-  <div class="float_div">
+  <div class="float_div"> <!-- this doesnt behave like inline, but all my other similar elements do? -->
     <img src="/assets/youtubelogo_white.png" class="logo">
-    
+
     <div class="yt_block">
       <a href="https://www.youtube.com/@ByteDice" target="_blank" class="yt_avatar_link link">
         <img src="/assets/dice_border.png" class="yt_pfp">
@@ -51,7 +45,7 @@
   <!-- discord -->
   <div class="float_div">
     <img src="/assets/discordlogo.png" class="logo">
-    
+
     <a href="https://discord.gg/tBqK7GeZ" target="_blank" class="link">
       <img src="/assets/dc_invite.png" class="dc_img">
     </a>
@@ -96,7 +90,6 @@
     </a>
   </div>
 
-  <script src="animation.js"></script>
   <script src="/dashboard.js"></script>
 </body>
 

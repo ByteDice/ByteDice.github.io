@@ -43,8 +43,24 @@
   left: 0px;
   box-sizing: border-box;
   vertical-align: bottom;
+  z-index: 500;
 
   background: linear-gradient(0deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 50%);
   mask-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
   backdrop-filter: blur(30px);
+}
+
+.flat_triangle {
+  position: fixed;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -175%);
+  font-size: 80px;
+  z-index: 501;
+
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.flat_triangle:hover {
+  color: rgba(50, 50, 50, 0.65);
 }

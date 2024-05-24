@@ -1,9 +1,12 @@
+body {
+  overflow: hidden;
+}
+
+
 /* global */
 .float_div {
   display: inline-grid;
   position: absolute;
-  top: 70%;
-  left: 20%;
   margin: 0px;
   overflow: hidden;
 }
@@ -173,6 +176,7 @@
 /* github */
 .gh_bg {
   padding: 20px;
+  display: inline-block;
   
   border-radius: 16px;
   background-color: #0d1117;
@@ -204,11 +208,4 @@
   border-radius: 8px;
   font-size: 12px;
   cursor: pointer;
-}
-
-
-
-/* replit */
-.repl_img {
-  border-radius: 16px;
 }

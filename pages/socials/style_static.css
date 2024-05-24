@@ -1,0 +1,10 @@
+body {
+  padding-top: 20vh !important;
+  display: inline-grid !important;
+  overflow: scroll !important;
+}
+
+.float_div {
+  position: relative !important;
+  margin-bottom: 20px !important;
+}

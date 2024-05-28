@@ -60,6 +60,7 @@ function add_dashboard() {
   let dashboard_content_str = `
     <div class="dashboard_bar">
       ${dashboard_text}${button_elements.join("")}
+      <div class="dashboard_hider_gradient"></div>
     </div>
   `;
 

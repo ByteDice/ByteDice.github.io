@@ -9,6 +9,7 @@ p {
 
 img {
   max-width: 100%;
+  max-height: 40%;
   margin: 20px;
   margin-left: 0px;
 
@@ -50,14 +51,13 @@ img {
   text-decoration: underline;
 }
 
-
 .text_area {
   left: 30vw;
   right: 10vw;
   min-height: 100vh;
   position: absolute;
   padding: 40px;
-  padding-top: 10vh;
+  padding-top: 14vh;
   padding-bottom: 20vh;
 
   background: rgba(0, 0, 0, 0.65);
@@ -67,7 +67,13 @@ img {
   margin-bottom: 5px;
 }
 
+.article_update_date {
+  color: #888888;
+  margin-top: 0px;
+}
+
 .article_date {
   color: #888888;
   margin-top: 0px;
+  margin-bottom: 0px;
 }

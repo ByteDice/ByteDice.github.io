@@ -3,9 +3,10 @@
 
 ## Description
 A simple website with no server code, made to host content related to the person known as Byte Dice.
-This is fully open-source, however, I do not respect cloning the website and hosting it as your own work.
+This is fully open-source. However, I do not respect cloning the website and hosting it as your own work.
 
-Feel free to submit pull requests and bug reports if you are interested in collaborating on this website.
+Feel free to submit pull requests and bug reports if you are interested in collaborating on this website.\
+**Remember to star this repository if you'd like updates about it!**
 
 
 ## Milestones

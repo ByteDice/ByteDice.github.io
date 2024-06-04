@@ -136,6 +136,5 @@ function begin() {
 
 
 window.addEventListener('load', function() {
-  document.getElementById("long_load").remove();
   begin();
 });

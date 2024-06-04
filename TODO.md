@@ -1,7 +1,7 @@
 # TODO (is planned to happen some time)
 
 * Make all pages "any screen size" friendly
-
+* Make socials page not do weird scaling in portrait mode
 
 # Future plans (may not happen)
 

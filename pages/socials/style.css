@@ -1,5 +1,7 @@
 body {
   overflow: hidden;
+  width: 100vw;
+  height: 100vh;
 }
 
 
@@ -22,6 +24,16 @@ body {
   text-decoration: none;
 }
 
+.static_reminder {
+  bottom: 0%;
+  left: 0%;
+  position: absolute;
+  padding: 16px;
+  margin: 0%;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 16px;
+  z-index: 999;
+}
 
 
 /* youtube */
@@ -104,57 +116,6 @@ body {
 /* discord */
 .dc_img {
   border-radius: 16px;
-}
-
-
-/* reddit */
-.re_bg {
-  display: inline-flex;
-  align-items: center;
-  padding: 10px;
-
-  border-radius: 16px;
-  background-color: #0b1416;
-}
-
-.re_pfp {
-  max-width: 75px;
-  height: auto;
-  margin: 0px;
-
-  border-radius: 50%;
-  border: solid 5px #242c2e;
-}
-
-.re_name {
-  margin: 0px;
-  margin-left: 20px;
-
-  font-size: 25px;
-  white-space: nowrap;
-}
-
-.re_username {
-  margin: 0px;
-  margin-left: 20px;
-  
-  color: #82958a;
-  white-space: nowrap;
-}
-
-.re_follow_btn {
-  margin-left: 50px;
-  margin-right: 20px;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  color: #ffffff;
-  font-size: 15px;
-  background-color: #0045ac;
-  border-radius: 32px;
-  border: none;
-  cursor: pointer;
 }
 
 

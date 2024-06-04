@@ -28,7 +28,7 @@ a {
 }
 
 .dashboard_bar {
-  width: 100vw;
+  width: 100%;
   max-height: 100px;
   position: relative;
   z-index: 1000;
@@ -46,7 +46,7 @@ a {
 }
 
 .dashboard_blur {
-  width: 100vw;
+  width: 100%;
   max-height: 200px;
   top: 0;
   left: 0;
